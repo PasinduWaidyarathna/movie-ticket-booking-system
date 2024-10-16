@@ -1,0 +1,103 @@
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.exe.config
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.exe
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.pdb
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.AssemblyReference.cache
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.manager_dashboard.resources
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.moviesManager.resources
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.Properties.Resources.resources
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.GenerateResource.cache
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.CoreCompileInputs.cache
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.exe
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.pdb
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.cashierDashboard.resources
+D:\$ECS\3 YEAR\1 SEM\BECS 31242 - Visual Programming\Movie_ticket_system\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.cashierMovie.resources
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.exe.config
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.exe
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.pdb
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.cashierDashboard.resources
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.cashierMovie.resources
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.manager_dashboard.resources
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.moviesManager.resources
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.Properties.Resources.resources
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.usersManager.resources
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.GenerateResource.cache
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.exe
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.pdb
+C:\Users\user\Downloads\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.Login.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.exe.config
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.exe
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\move_ticket_booking_system_v1.pdb
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.AssemblyReference.cache
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.cashierDashboard.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.cashierMovie.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.manager_dashboard.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.Login.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.moviesManager.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.Properties.Resources.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.showtimesManager.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.usersManager.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.GenerateResource.cache
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.csproj.CoreCompileInputs.cache
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.exe
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.pdb
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.salesManager.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.bookingsManager.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.cashierViewBooking.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.NewBookingForm.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\EnvDTE.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\stdole.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.salesViewReport.resources
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_tic.CC4ADD72.Up2Date
+D:\.NET Framework\move_ticket_booking_system_v1\move_ticket_booking_system_v1\obj\Debug\move_ticket_booking_system_v1.cashierNewBooking.resources

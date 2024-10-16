@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2117EFF-50EC-48AB-A3B3-D5FEC6AE8EF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>move_ticket_booking_system_v1</RootNamespace>
+    <AssemblyName>move_ticket_booking_system_v1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bookingsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookingsManager.Designer.cs">
+      <DependentUpon>bookingsManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashierDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashierDashboard.Designer.cs">
+      <DependentUpon>cashierDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashierMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashierMovie.Designer.cs">
+      <DependentUpon>cashierMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashierNewBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashierNewBooking.Designer.cs">
+      <DependentUpon>cashierNewBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashierViewBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashierViewBooking.Designer.cs">
+      <DependentUpon>cashierViewBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DsBooking.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsBooking.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsBooking1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsBooking1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsBooking11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsBooking11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsBooking2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBooking2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsLogin.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsLogin.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsMovies.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsMovies.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsSales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsSales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsSales01.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsSales01.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsShowTime.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsShowTime.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsUsers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsViewBooking.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsViewBooking.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="movieDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>movieDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="movieDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>movieDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="movieDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>movieDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="movieDBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>movieDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="movieDBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>movieDBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="movieDBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>movieDBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="movieDBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>movieDBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="moviesManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moviesManager.Designer.cs">
+      <DependentUpon>moviesManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewBookingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewBookingForm.Designer.cs">
+      <DependentUpon>NewBookingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="salesManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesManager.Designer.cs">
+      <DependentUpon>salesManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salesViewReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesViewReport.Designer.cs">
+      <DependentUpon>salesViewReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showtimesManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showtimesManager.Designer.cs">
+      <DependentUpon>showtimesManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="usersManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usersManager.Designer.cs">
+      <DependentUpon>usersManager.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bookingsManager.resx">
+      <DependentUpon>bookingsManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashierDashboard.resx">
+      <DependentUpon>cashierDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashierMovie.resx">
+      <DependentUpon>cashierMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashierNewBooking.resx">
+      <DependentUpon>cashierNewBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashierViewBooking.resx">
+      <DependentUpon>cashierViewBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moviesManager.resx">
+      <DependentUpon>moviesManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewBookingForm.resx">
+      <DependentUpon>NewBookingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="salesManager.resx">
+      <DependentUpon>salesManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesReport.rdlc" />
+    <EmbeddedResource Include="salesViewReport.resx">
+      <DependentUpon>salesViewReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showtimesManager.resx">
+      <DependentUpon>showtimesManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usersManager.resx">
+      <DependentUpon>usersManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DsBooking.xsc">
+      <DependentUpon>DsBooking.xsd</DependentUpon>
+    </None>
+    <None Include="DsBooking.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsBooking.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsBooking.xss">
+      <DependentUpon>DsBooking.xsd</DependentUpon>
+    </None>
+    <None Include="DsBooking1.xsc">
+      <DependentUpon>DsBooking1.xsd</DependentUpon>
+    </None>
+    <None Include="DsBooking1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsBooking1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsBooking1.xss">
+      <DependentUpon>DsBooking1.xsd</DependentUpon>
+    </None>
+    <None Include="DsBooking11.xsc">
+      <DependentUpon>DsBooking11.xsd</DependentUpon>
+    </None>
+    <None Include="DsBooking11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsBooking11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsBooking11.xss">
+      <DependentUpon>DsBooking11.xsd</DependentUpon>
+    </None>
+    <None Include="dsBooking2.xsc">
+      <DependentUpon>dsBooking2.xsd</DependentUpon>
+    </None>
+    <None Include="dsBooking2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBooking2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsBooking2.xss">
+      <DependentUpon>dsBooking2.xsd</DependentUpon>
+    </None>
+    <None Include="DsLogin.xsc">
+      <DependentUpon>DsLogin.xsd</DependentUpon>
+    </None>
+    <None Include="DsLogin.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsLogin.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsLogin.xss">
+      <DependentUpon>DsLogin.xsd</DependentUpon>
+    </None>
+    <None Include="DsMovies.xsc">
+      <DependentUpon>DsMovies.xsd</DependentUpon>
+    </None>
+    <None Include="DsMovies.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsMovies.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsMovies.xss">
+      <DependentUpon>DsMovies.xsd</DependentUpon>
+    </None>
+    <None Include="DsSales.xsc">
+      <DependentUpon>DsSales.xsd</DependentUpon>
+    </None>
+    <None Include="DsSales.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsSales.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsSales.xss">
+      <DependentUpon>DsSales.xsd</DependentUpon>
+    </None>
+    <None Include="DsSales01.xsc">
+      <DependentUpon>DsSales01.xsd</DependentUpon>
+    </None>
+    <None Include="DsSales01.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsSales01.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsSales01.xss">
+      <DependentUpon>DsSales01.xsd</DependentUpon>
+    </None>
+    <None Include="DsShowTime.xsc">
+      <DependentUpon>DsShowTime.xsd</DependentUpon>
+    </None>
+    <None Include="DsShowTime.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsShowTime.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsShowTime.xss">
+      <DependentUpon>DsShowTime.xsd</DependentUpon>
+    </None>
+    <None Include="DsUsers.xsc">
+      <DependentUpon>DsUsers.xsd</DependentUpon>
+    </None>
+    <None Include="DsUsers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsUsers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsUsers.xss">
+      <DependentUpon>DsUsers.xsd</DependentUpon>
+    </None>
+    <None Include="DsViewBooking.xsc">
+      <DependentUpon>DsViewBooking.xsd</DependentUpon>
+    </None>
+    <None Include="DsViewBooking.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsViewBooking.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DsViewBooking.xss">
+      <DependentUpon>DsViewBooking.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet.xsc">
+      <DependentUpon>movieDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>movieDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="movieDBDataSet.xss">
+      <DependentUpon>movieDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet1.xsc">
+      <DependentUpon>movieDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>movieDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="movieDBDataSet1.xss">
+      <DependentUpon>movieDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet2.xsc">
+      <DependentUpon>movieDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>movieDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="movieDBDataSet2.xss">
+      <DependentUpon>movieDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet3.xsc">
+      <DependentUpon>movieDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>movieDBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="movieDBDataSet3.xss">
+      <DependentUpon>movieDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet4.xsc">
+      <DependentUpon>movieDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>movieDBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="movieDBDataSet4.xss">
+      <DependentUpon>movieDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet5.xsc">
+      <DependentUpon>movieDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>movieDBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="movieDBDataSet5.xss">
+      <DependentUpon>movieDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet6.xsc">
+      <DependentUpon>movieDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="movieDBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>movieDBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="movieDBDataSet6.xss">
+      <DependentUpon>movieDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\DsSales01.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

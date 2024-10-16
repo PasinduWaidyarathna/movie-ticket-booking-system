@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsBooking11" targetNamespace="http://tempuri.org/DsBooking11.xsd" xmlns:mstns="http://tempuri.org/DsBooking11.xsd" xmlns="http://tempuri.org/DsBooking11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsBooking11" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DsBooking11" msprop:Generator_DataSetName="DsBooking11">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="movies" msprop:Generator_RowEvHandlerName="moviesRowChangeEventHandler" msprop:Generator_RowDeletedName="moviesRowDeleted" msprop:Generator_RowDeletingName="moviesRowDeleting" msprop:Generator_RowEvArgName="moviesRowChangeEvent" msprop:Generator_TablePropName="movies" msprop:Generator_RowChangedName="moviesRowChanged" msprop:Generator_RowChangingName="moviesRowChanging" msprop:Generator_TableClassName="moviesDataTable" msprop:Generator_RowClassName="moviesRow" msprop:Generator_TableVarName="tablemovies" msprop:Generator_UserTableName="movies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="movie_id" msprop:Generator_ColumnPropNameInRow="movie_id" msprop:Generator_ColumnPropNameInTable="movie_idColumn" msprop:Generator_ColumnVarNameInTable="columnmovie_id" msprop:Generator_UserColumnName="movie_id" type="xs:int" />
+              <xs:element name="title" msprop:Generator_ColumnPropNameInRow="title" msprop:Generator_ColumnPropNameInTable="titleColumn" msprop:Generator_ColumnVarNameInTable="columntitle" msprop:Generator_UserColumnName="title">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="show_date" msprop:Generator_ColumnPropNameInRow="show_date" msprop:Generator_ColumnPropNameInTable="show_dateColumn" msprop:Generator_ColumnVarNameInTable="columnshow_date" msprop:Generator_UserColumnName="show_date" type="xs:dateTime" />
+              <xs:element name="start_time" msprop:Generator_ColumnPropNameInRow="start_time" msprop:Generator_ColumnPropNameInTable="start_timeColumn" msprop:Generator_ColumnVarNameInTable="columnstart_time" msprop:Generator_UserColumnName="start_time">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="available_seats" msprop:Generator_ColumnPropNameInRow="available_seats" msprop:Generator_ColumnPropNameInTable="available_seatsColumn" msprop:Generator_ColumnVarNameInTable="columnavailable_seats" msprop:Generator_UserColumnName="available_seats" type="xs:int" />
+              <xs:element name="ticket_price" msprop:Generator_ColumnPropNameInRow="ticket_price" msprop:Generator_ColumnPropNameInTable="ticket_priceColumn" msprop:Generator_ColumnVarNameInTable="columnticket_price" msprop:Generator_UserColumnName="ticket_price" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:movies" />
+      <xs:field xpath="mstns:movie_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

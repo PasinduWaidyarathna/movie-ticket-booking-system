@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsSales" targetNamespace="http://tempuri.org/DsSales.xsd" xmlns:mstns="http://tempuri.org/DsSales.xsd" xmlns="http://tempuri.org/DsSales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsSales" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DsSales" msprop:Generator_DataSetName="DsSales">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sales" msprop:Generator_RowEvHandlerName="salesRowChangeEventHandler" msprop:Generator_RowDeletedName="salesRowDeleted" msprop:Generator_RowDeletingName="salesRowDeleting" msprop:Generator_RowEvArgName="salesRowChangeEvent" msprop:Generator_TablePropName="sales" msprop:Generator_RowChangedName="salesRowChanged" msprop:Generator_RowChangingName="salesRowChanging" msprop:Generator_TableClassName="salesDataTable" msprop:Generator_RowClassName="salesRow" msprop:Generator_TableVarName="tablesales" msprop:Generator_UserTableName="sales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sale_id" msprop:Generator_ColumnPropNameInRow="sale_id" msprop:Generator_ColumnPropNameInTable="sale_idColumn" msprop:Generator_ColumnVarNameInTable="columnsale_id" msprop:Generator_UserColumnName="sale_id" type="xs:int" />
+              <xs:element name="showtime_id" msprop:Generator_ColumnPropNameInRow="showtime_id" msprop:Generator_ColumnPropNameInTable="showtime_idColumn" msprop:Generator_ColumnVarNameInTable="columnshowtime_id" msprop:Generator_UserColumnName="showtime_id" type="xs:int" />
+              <xs:element name="tickets_sold" msprop:Generator_ColumnPropNameInRow="tickets_sold" msprop:Generator_ColumnPropNameInTable="tickets_soldColumn" msprop:Generator_ColumnVarNameInTable="columntickets_sold" msprop:Generator_UserColumnName="tickets_sold" type="xs:int" />
+              <xs:element name="total_income" msprop:Generator_ColumnPropNameInRow="total_income" msprop:Generator_ColumnPropNameInTable="total_incomeColumn" msprop:Generator_ColumnVarNameInTable="columntotal_income" msprop:Generator_UserColumnName="total_income" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:sales" />
+      <xs:field xpath="mstns:sale_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
